@@ -1,0 +1,156 @@
+body.modo-claro{
+    background-color: #ffffff;
+}
+
+body.modo-claro div {
+    background-color: #ededed;
+    color: #4c4c4c;
+}
+
+body.modo-claro header {
+    color: black;
+}
+
+body.modo-claro .footer2 h3,
+body.modo-claro .footer-social h3{
+    color: black;
+}
+
+body.modo-claro .footer2 a {
+    color: black;
+}
+
+body.modo-claro #w3c {
+    background-color: #cccccc;
+}
+
+body.modo-claro .icono{
+    background-color: #cccccc;
+    color: #4C4C4C;
+}
+
+body.modo-claro .icono i {
+    color: #4C4C4C;
+  }
+
+body.modo-claro .link {
+    background-color: #cccccc;
+}
+
+body.modo-claro .link a {
+    color: #000000;
+}
+
+body.modo-claro .link:hover {
+    background-color: #000000;
+}
+
+body.modo-claro .link:hover a {
+    color: #ffffff;
+}
+
+body.modo-claro .nombreud {
+    background-color: transparent;
+}
+
+body.modo-claro iframe {
+    background-color: #ebebeb;
+}
+
+body.modo-claro .progud:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+body.modo-claro .progud:hover h5,
+body.modo-claro .progud:hover p,
+body.modo-claro .progud:hover h4 {
+    color: #000000;
+}
+
+body.modo-claro .cabecera {
+    color: #000000;
+}
+
+body.modo-claro .cabecera p {
+    color: #000000;
+}
+
+body.modo-claro .moduloico i {
+    color: #000000;
+}
+
+body.modo-claro .moduloindi:hover {
+    background-color: #e0e0e0;
+}
+
+body.modo-claro .moduloindi:active {
+    background-color: #ffffff;
+}
+
+body.modo-claro .overlay {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+}
+
+body.modo-claro .textmod {
+    background-color: transparent;
+}
+
+body.modo-claro #prog {
+    background: linear-gradient(125deg, rgba(203, 98, 255, 1) 0%, rgba(219, 0, 0, 1) 60%, rgba(0, 0, 0, 1) 100%);
+}
+
+body.modo-claro #lenguaje {
+    background: linear-gradient(125deg, rgba(203, 98, 255, 1) 0%, rgba(219, 206, 0, 1) 60%, rgba(0, 0, 0, 1) 100%);
+}
+
+body.modo-claro #bases {
+    background: linear-gradient(125deg, rgba(203, 98, 255, 1) 0%, rgb(219, 0, 208) 60%, rgba(0, 0, 0, 1) 100%);
+}
+
+body.modo-claro #sistemas {
+    background: linear-gradient(125deg, rgba(203, 98, 255, 1) 0%, rgba(0, 67, 219, 1) 60%, rgba(0, 0, 0, 1) 100%);
+}
+
+body.modo-claro #entornos {
+    background: linear-gradient(125deg, rgba(203, 98, 255, 1) 0%, rgba(255, 162, 0, 1) 60%, rgba(0, 0, 0, 1) 100%);
+}
+
+body.modo-claro #ingles {
+    background: linear-gradient(125deg, rgba(203, 98, 255, 1) 0%, rgba(110, 0, 219, 1) 60%, rgba(0, 0, 0, 1) 100%);
+}
+
+body.modo-claro #optativa {
+    background: linear-gradient(125deg, rgba(203, 98, 255, 1) 0%, rgba(0, 198, 255, 1) 60%, rgba(0, 0, 0, 1) 100%);
+}
+
+body.modo-claro #cabeceraprog {
+    background: linear-gradient(0deg, rgba(218, 218, 218, 0.5) 10%, rgba(219, 0, 0, 0.700717787114846) 100%);
+}
+
+body.modo-claro #cabeceralmsgi {
+    background: linear-gradient(0deg, rgba(218, 218, 218, 0.5) 10%, rgba(219, 206, 0, 0.700717787114846) 100%);
+}
+
+body.modo-claro #cabecerabases {
+    background: linear-gradient(0deg, rgba(218, 218, 218, 0.5) 10%, rgba(255, 0, 234, 0.701) 100%);
+}
+
+body.modo-claro #cabecerasistemas {
+    background: linear-gradient(0deg, rgba(218, 218, 218, 0.5) 10%, rgba(0, 67, 219, 0.700717787114846) 100%);
+}
+
+body.modo-claro #cabeceraentornos {
+    background: linear-gradient(0deg, rgba(218, 218, 218, 0.5) 10%, rgba(255, 162, 0, 0.700717787114846) 100%);
+}
+
+body.modo-claro #cabeceraingles {
+    background: linear-gradient(0deg, rgba(218, 218, 218, 0.5) 10%, rgba(110, 0, 219, 0.700717787114846) 100%);
+}
+
+body.modo-claro #cabeceraoptativa {
+    background: linear-gradient(0deg, rgba(218, 218, 218, 0.5) 10%, rgba(0, 198, 255, 0.700717787114846) 100%);
+}
+
+
