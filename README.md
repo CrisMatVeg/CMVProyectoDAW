@@ -3,7 +3,7 @@
 
 |  CFGS DESARROLLO  DE APLICACIONES WEB |
 |:-----------:|
-|![Alt](images/portada.jpg)|
+|![Alt](./webroot/images/portada.jpg)|
 | DESPLIEGUE DE APLICACIONES WEB
 | CIBERSEGURIDAD
 | DWES Tema 2. INSTALACIÓN, CONFIGURACIÓN Y DOCUMENTACIÓN DE ENTORNO DE DESARROLLO Y DEL ENTORNO DE EXPLOTACIÓN |
@@ -227,10 +227,10 @@ En **/etc/php/8.3/apache2/php.ini** y **/etc/php/8.3/fpm/php.ini**
 - Cambiar **display_errors** a "On"
 - Cambiar **display_startup_errors** a "On"
 
-![Alt](images/display_errors_php.png)
+![Alt](./webroot/images/display_errors_php.png)
 - Cambiar **memory_limit** a "256M"
 
-![Alt](images/memory_limit_php.png)
+![Alt](./webroot/images/memory_limit_php.png)
 
 #### 1.1.4 MySQL
 #### 1.1.5 XDebug
@@ -250,24 +250,24 @@ En **/etc/php/8.3/apache2/php.ini** y **/etc/php/8.3/fpm/php.ini**
 #### 1.2.4 **Netbeans**
 ##### **Crear Proyecto**
 1. En nuestro almacenamiento local, es decir, la maquina anfitriona (en mi caso Windows 10) creamos una carpeta para guardar nuestro proyecto\
-![Alt](images/carpetalocal.png)
+![Alt](./webroot/images/carpetalocal.png)
 2. En nuestro almacenamiento remoto, es decir, nuestro servidor web en una máquina virtual de Ubuntu Server version 24.04.3 crearemos tambien un directorio en /var/www/html con el nombre del proyecto y dentro un index\
-![Alt](images/directorioservidor.png)\
-![Alt](images/indexproyectoprueba.png)
+![Alt](./webroot/images/directorioservidor.png)\
+![Alt](./webroot/images/indexproyectoprueba.png)
 3. Ahora en Netbeans creamos el proyecto eligiendo el almacenamiento remoto de donde cogerá los archivos para empezar (el directorio con el index que creamos antes)
    1. Arriba a la izquierda damos a crear proyecto y luego elegimos PHP y la tercera opción\
-![Alt](images/netbeanscp1.png)
+![Alt](./webroot/images/netbeanscp1.png)
    2. Ahora pondremos el nombre del proyecto y su ubicacion (la carpeta local de antes)\
-![Alt](images/netbeanscp2.png)
+![Alt](./webroot/images/netbeanscp2.png)
    3. Ahora ponemos la url del servidor y el directorio de donde se cargaran los archivos (el index de antes)\
-![Alt](images/netbeanscp3.png)
+![Alt](./webroot/images/netbeanscp3.png)
    4. Despues de dar varias veces a siguiente ya nos aparecerá el proyecto creado a la izquierda y tendremos el index creado en el servidor accesible desde el IDE\
-![Alt](images/netbeanscp4.png)
+![Alt](./webroot/images/netbeanscp4.png)
 ##### **Eliminar Proyecto**
 1. Para eliminar un proyecto haremos clic derecho sobre el proyecto que queremos eliminar y ahí le daremos a "Delete".\
-![Alt](images/netbeansdp1.png)
+![Alt](./webroot/images/netbeansdp1.png)
 2. Se nos abrirá una ventana de confirmación que tendrá una opción para marcar por si queremos eliminar tambien la carpeta y los archivos del proyecto,elegimos esa opcion si queremos.\
-![Alt](images/netbeansdp2.png)
+![Alt](./webroot/images/netbeansdp2.png)
 1. Ahora en nuestro almacenamiento local, donde creamos el proyecto, ya no nos aparecerá, ya que se ha eliminado.
 2. Pero aún conservaremos la carpeta y los archivos en remoto, los cuales si queremos podemos reutilizar para volver a crear un proyecto con ellos, o eliminarlos tambien.
 
