@@ -1,3 +1,4 @@
 ErrorDocument 404 /error/error404.html
 ErrorDocument 403 /error/error403.html
 ErrorDocument 500 /error/error500.html
+# DirectoryIndex indexProyectoDWES.php indexProyectoDWES.html
