@@ -1,0 +1,10 @@
+.bash_history
+.bashrc
+.wget-hsts
+.cache/
+.dotnet/
+.local/
+.ssh/
+.vscode-server/
+.vscode/
+nbproject/
