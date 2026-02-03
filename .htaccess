@@ -1,7 +1,4 @@
 ErrorDocument 404 /error/error404.html
 ErrorDocument 403 /error/error403.html
 ErrorDocument 500 /error/error500.html
-RewriteEngine On 
-RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://10.199.8.248/$1 [R,L]
-# DirectoryIndex indexProyectoDWES.php indexProyectoDWES.html
+#DirectoryIndex index.php
